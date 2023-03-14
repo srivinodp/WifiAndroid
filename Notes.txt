@@ -97,3 +97,14 @@ getRssi(): Returns the received signal strength indicator (RSSI) of the current 
 getSSID(): Returns the service set identifier (SSID) of the current Wi-Fi connection.
 getSupplicantState(): Returns the supplicant state of the current Wi-Fi connection.
 
+-------------------------------------
+
+ScanResult class - 
+
+SSID: Returns the network name (SSID) of the Wi-Fi access point as a string.
+BSSID: Returns the basic service set identifier (BSSID) of the access point as a string.
+frequency: Returns the frequency of the channel over which the client is communicating with the access point, in MHz.
+level: Returns the received signal strength indicator (RSSI) of the access point in dBm.
+capabilities: Returns the security capabilities of the access point as a string.
+toString(): Returns a string representation of the ScanResult object.
+In addition to these methods, ScanResult also has various getter and setter methods for its properties, such as getSSID(), setSSID(), getBSSID(), setBSSID(), etc.
