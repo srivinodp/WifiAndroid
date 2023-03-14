@@ -1,0 +1,51 @@
+WifiManager: 
+This class is used to manage the WiFi connectivity of the device. 
+It provides methods to scan for available WiFi networks, connect to a WiFi network, and get information about the current WiFi connection.
+
+WifiConfiguration:
+This class represents the configuration information for a WiFi network. 
+It includes information such as the network name, security settings, and password.
+
+WifiInfo:
+This class provides information about the current WiFi connection, such as the network name, signal strength, and IP address.
+
+ScanResult: 
+This class represents the information about a WiFi network that was discovered during a scan.
+It includes information such as the network name, signal strength, and security settings.
+
+WifiStateReceiver: 
+This class is used to receive broadcast messages related to WiFi connectivity, such as when the device connects or disconnects from a WiFi network.
+
+WifiP2pManager: 
+This class provides APIs for creating and managing WiFi Direct connections between devices.
+
+WifiDirectDevice:
+This class represents a device that is available for WiFi Direct connections.
+
+WifiDirectGroup: 
+This class represents a group of devices that are connected using WiFi Direct.
+
+WifiDirectService: 
+This class represents a service that is available for discovery over a WiFi Direct connection.
+
+WifiDirectServiceRequest: 
+This class represents a request for discovering services over a WiFi Direct connection.
+
+There are a few more classes related to WiFi in Android:
+
+WifiP2pManager: This class provides the API for managing Wi-Fi Direct connectivity.
+WifiAwareManager: This class provides the API for managing Wi-Fi Aware connectivity.
+WifiScanner: This class provides the API for scanning for Wi-Fi access points.
+WifiEnterpriseConfig: This class provides the configuration for enterprise Wi-Fi networks.
+WifiNetworkSpecifier: This class specifies a Wi-Fi network to connect to.
+WifiInfo: This class provides information about the current Wi-Fi connection.
+WifiManager.LocalOnlyHotspotReservation: This class represents a local-only Wi-Fi hotspot reservation.
+WifiManager.LocalOnlyHotspotCallback: This class provides callbacks for local-only Wi-Fi hotspot creation.
+WifiManager.WifiLock: This class provides a mechanism for applications to request a Wi-Fi lock to keep the Wi-Fi radio awake.
+ScanResult: This class represents the results of a Wi-Fi access point scan.
+WifiConfiguration: This class represents a Wi-Fi network configuration.
+
+
+
+
+
