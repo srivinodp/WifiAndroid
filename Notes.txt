@@ -73,7 +73,27 @@ reconnect(): This method can be used to reconnect to the currently connected Wi-
 
 -------------------------------------
 
+WifiConfiguration class - 
 
+public int networkId: Returns the unique network identifier for this configuration.
+public String SSID: Gets the SSID (name) of the Wi-Fi network associated with this configuration.
+public int status: Gets the status of the Wi-Fi network associated with this configuration. Possible values are: DISABLED, ENABLED, and CURRENT.
+public int priority: Gets the priority of this configuration.
+public String toString(): Returns a string representation of the configuration.
+public void allowAutojoin(boolean allow): Sets whether this network should be allowed to connect automatically.
+public void setProxySettings(ProxySettings settings): Sets the proxy settings for this configuration.
+public void setIpAssignment(IpAssignment assign) : Sets the IP assignment type for this configuration.
 
+------------------------------------
 
+WifiInfo class - 
+
+getBSSID(): Returns the basic service set identifier (BSSID) of the current access point.
+getIpAddress(): Returns the IP address of the current Wi-Fi connection.
+getLinkSpeed(): Returns the link speed of the current Wi-Fi connection in Mbps.
+getMacAddress(): Returns the MAC address of the Wi-Fi interface.
+getNetworkId(): Returns the network ID of the current Wi-Fi connection.
+getRssi(): Returns the received signal strength indicator (RSSI) of the current Wi-Fi connection in dBm.
+getSSID(): Returns the service set identifier (SSID) of the current Wi-Fi connection.
+getSupplicantState(): Returns the supplicant state of the current Wi-Fi connection.
 
