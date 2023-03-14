@@ -45,6 +45,34 @@ WifiManager.WifiLock: This class provides a mechanism for applications to reques
 ScanResult: This class represents the results of a Wi-Fi access point scan.
 WifiConfiguration: This class represents a Wi-Fi network configuration.
 
+------------------------------------------------------
+WifiManager class - 
+getWifiState(): This method returns the current state of the Wi-Fi connection. Possible return values include WifiManager.WIFI_STATE_DISABLED, WifiManager.WIFI_STATE_ENABLED, and WifiManager.WIFI_STATE_ENABLING.
+
+isWifiEnabled(): This method returns a boolean indicating whether Wi-Fi is currently enabled.
+
+setWifiEnabled(boolean enabled): This method can be used to enable or disable Wi-Fi programmatically.
+
+getConnectionInfo(): This method returns an instance of the WifiInfo class, which contains information about the current Wi-Fi connection.
+
+startScan(): This method starts a Wi-Fi scan to look for available Wi-Fi networks.
+
+getScanResults(): This method returns a list of ScanResult objects, each of which represents a Wi-Fi network that was detected during the most recent scan.
+
+getWifiState() and isWifiEnabled() can be used to determine whether Wi-Fi is currently enabled, and setWifiEnabled() can be used to enable or disable Wi-Fi programmatically.
+
+addNetwork() and enableNetwork() can be used to add a new Wi-Fi network to the device and connect to it.
+
+disconnect(): This method can be used to disconnect the device from the current Wi-Fi network.
+
+getConfiguredNetworks(): This method returns a list of all Wi-Fi networks that have been saved to the device.
+
+removeNetwork(): This method can be used to remove a saved Wi-Fi network from the device.
+
+reconnect(): This method can be used to reconnect to the currently connected Wi-Fi network.
+
+-------------------------------------
+
 
 
 
